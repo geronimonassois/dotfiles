@@ -1,0 +1,5 @@
+alias l="ls -l"
+alias ld="ls -ld */"
+alias la="ls -la"
+alias ..="cd ../"
+alias src_ros2="source /opt/ros/foxy/setup.zsh"

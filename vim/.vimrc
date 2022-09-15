@@ -12,6 +12,8 @@ Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
 " Using a non-default branch
 Plug 'rdnetto/YCM-Generator', { 'branch': 'stable' }
 
+Plug 'ycm-core/YouCompleteMe'
+
 Plug 'flazz/vim-colorschemes'
 
 Plug 'vim-airline/vim-airline'
@@ -19,6 +21,8 @@ Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 
 Plug 'ompugao/ros.vim'
+
+Plug 'Raimondi/delimitMate'
 
 call plug#end()
 
