@@ -24,6 +24,10 @@ Plug 'ompugao/ros.vim'
 
 Plug 'Raimondi/delimitMate'
 
+Plug 'tpope/vim-commentary'
+
+Plug 'airblade/vim-gitgutter'
+
 call plug#end()
 
 
@@ -58,7 +62,11 @@ colorscheme darkglass
 """"""""""""""""""""""""""""
 
 nmap <F2> :NERDTreeToggle<CR>
+nmap ggd :YcmCompleter GoToDefinition<CR>
+nmap gDD:YcmCompleter GetDoc<CR>
+nmap <C-d> <plug>(YCMHover)
 
+noremap ;; :%s:::g<Left><Left><Left>
 
 
 """"""""""""""""""""""""""""
@@ -68,4 +76,7 @@ nmap <F2> :NERDTreeToggle<CR>
 """"""""""""""""""""""""""""
 
 let g:ycm_global_ycm_extra_conf = '~/.vim/.ycm_extra_conf.py'
+let g:ycm_auto_hover=''
+set completeopt-=preview
+
 

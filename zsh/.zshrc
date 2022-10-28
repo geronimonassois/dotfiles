@@ -103,3 +103,5 @@ source ~/.config/.alias
 source ~/.config/.functions
 source ~/.config/.env
 source ~/.config/.inputrc
+source /opt/ros/galactic/setup.zsh
+
